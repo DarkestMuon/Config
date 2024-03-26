@@ -38,15 +38,17 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This Config is not 100% made by me I have just taken some Projects and using it like: 
+1) Jakoolit's Debian Config
+2) LunarVim
+### Images
 <p align="center">
-    <img align="center" width="49%" src="" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-ScreenShots/Debian-v2/Waybar-Layouts.png" />       
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/default-waybar.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_16-50-04_10444.png" />   
+   <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/waybar-layout.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_16-42-18_6073.png" /> 
+   <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_21-48-53_18395.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_16-48-37_31910.png" /> 
 </p>
 
-<p align="center">
-    <img align="center" width="49%" src="" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/rofi.png" />   
-   <img align="center" width="49%" src="" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/showcase2.png"" /> 
-   <img align="center" width="49%" src="" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/waybar-style.png"" /> 
-</p>
+Some Images are from JaKooLit as Wayland config is made by him
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
