@@ -28,7 +28,8 @@ else
   echo Please enter s for sid or t for testing
   exit 1
 fi
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
+sudo apt full-upgrade -y
 echo "INSTALLING IMPORTANT APPS"
 sudo apt install git nala liblz4-dev neovim fish -y
 echo "Please choose the Debian Mirrors, if you don\'t know what is that please choose 1 then Y"
