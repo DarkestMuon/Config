@@ -30,9 +30,11 @@ else
 fi
 sudo apt update && sudo apt upgrade -y
 sudo apt full-upgrade -y
+clear
 echo "INSTALLING IMPORTANT APPS"
 sudo apt install git nala liblz4-dev neovim fish -y
-echo "Please choose the Debian Mirrors, if you don\'t know what is that please choose 1 then Y"
+clear
+echo "Please choose the Debian Mirrors, if you don't know what is that please choose 1 then Y"
 sudo nala fetch
 
 clear
@@ -43,7 +45,7 @@ echo "Please restart as well and then run ~/.apps/Config/scripts/./postInstall.s
 echo "If you have understood, press enter [this screen would be cleared]"
 read
 git clone --depth=1 https://github.com/JaKooLit/Debian-Hyprland.git ~/.apps/debian-hyprland
-cd ~/.apps/Debian-Hyprland
+cd ~/.apps/debian-hyprland
 chmod +x install.sh
 ./install.sh
 
