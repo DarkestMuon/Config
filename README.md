@@ -63,10 +63,12 @@ Some Images are from JaKooLit as Wayland config is made by him
 - Debian Minimal Installation
 - Internet Connection
 ### Installation
-  ```bash mkdir ~/.apps```
-  ```bash git clone https://codeberg.org/DarkestMuon/Config ~/.apps/Config```
-  ```bash chmod +x ~/.apps/Config/scripts/install.sh```
-  ```bash ~/.apps/Config/scripts/./install.sh```
+  ```bash
+    mkdir -p ~/.apps
+    git clone https://codeberg.org/DarkestMuon/Config ~/.apps/Config
+    chmod +x ~/.apps/Config/scripts/install.sh
+    ~/.apps/Config/scripts/install.sh
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
