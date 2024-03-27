@@ -68,8 +68,7 @@ Some Images are from JaKooLit as Wayland config is made by him
     git clone https://codeberg.org/DarkestMuon/Config ~/.apps/Config
     chmod +x ~/.apps/Config/scripts/install.sh
     ~/.apps/Config/scripts/install.sh
-    ```
-
+  ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
