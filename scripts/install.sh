@@ -1,5 +1,6 @@
 #! /bin/sh
 # Install
+chmod +x ~/.apps/Config/scripts/postInstall.sh
 echo "
   _____       _     _                _____             __ _       
  |  __ \     | |   (_)              / ____|           / _(_)      

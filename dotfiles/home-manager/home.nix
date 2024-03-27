@@ -25,6 +25,7 @@
     pkgs.texliveFull
     pkgs.gh
     pkgs.fish
+    pkgs.conda
   ];
 
   # This value determines the Home Manager release that your

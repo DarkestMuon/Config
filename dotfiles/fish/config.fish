@@ -20,3 +20,9 @@ if status is-interactive
   alias h="history | sort | uniq | fzf | tr -d '\n' | wl-copy"
   alias cal="gcal"
 end
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval ~/.conda/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+

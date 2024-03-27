@@ -18,6 +18,7 @@ home-manager switch
 wget -L https://github.com/minbrowser/min/releases/download/v1.31.2/min-1.31.2-amd64.deb
 sudo apt  install ./min-1.31.2-amd64.deb
 sudo rm ./min-1.31.2-amd64.deb
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 chsh -s `which fish` # Setting Fish shell as default
 
 clear

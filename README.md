@@ -78,7 +78,7 @@ Some Images are from JaKooLit as Wayland config is made by him
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Additional Coding software
+- [x] Additional Coding software
 - [ ] Setup Neovim for note-taking
 - [ ] Other Linux Distro
   - [ ] Arch Based
