@@ -8,6 +8,12 @@ chmod +x ~/.apps/sleek--themes/Sleek theme-bigSur/uninstall.sh
 sudo ~/.apps/sleek--themes/Sleek theme-bigSur/./install.sh
 
 clear
+echo "Installing more Wallpapers"
+git clone https://DarkestMuon/wallpapers ~/Pictures/wallpaper
+cp -r ~/Pictures/wallpaper/img/* ~/Pictures/wallpapers
+rm -rf ~/Pictures/wallpaper
+
+clear
 echo "HyprLand has been installed now some other applications would be installed using the Nix pkg manager"
 echo "Installing nix,"
 yes | sh <(curl -L https://nixos.org/nix/install) --daemon
