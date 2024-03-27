@@ -1,4 +1,3 @@
-#! /bin/sh
 # Install
 chmod +x ~/.apps/Config/scripts/postInstall.sh
 echo "
@@ -16,11 +15,11 @@ echo "experimental → unstable[always called sid] → testing[currently called 
 echo "suggested unstable or testing"
 echo "choose [s] for sid or [t] for testing"
 read debian_branch
-if [ debian_branch = "s" ]; then
+if [ $debian_branch = "s" ]; then
   echo "Installing sid"
   sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
   sudo cp ~/.apps/Config/sources.list/sid.list /etc/apt/sources.list
-elif [ debian_branch = "t" ]; then
+elif [ $debian_branch = "t" ]; then
   echo "Installing trixie"
   sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
   sudo cp ~/.apps/Config/sources.list/trixie.list /etc/apt/sources.list
