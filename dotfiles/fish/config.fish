@@ -19,6 +19,9 @@ if status is-interactive
   alias nix-install="nvim ~/.config/home-manager/home.nix"
   alias h="history | sort | uniq | fzf | tr -d '\n' | wl-copy"
   alias cal="gcal"
+  alias yt="ddgr -w youtube.com"
+  alias duck="ddgr"
+  alias tree="eza -tree"
 end
 
 # >>> conda initialize >>>
