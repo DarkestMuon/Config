@@ -26,6 +26,7 @@ sudo apt  install ./min-1.31.2-amd64.deb
 sudo rm ./min-1.31.2-amd64.deb
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 chsh -s `which fish` # Setting Fish shell as default
+chmod +x ~/.config/scripts/*
 
 clear
 echo "Install completed"
