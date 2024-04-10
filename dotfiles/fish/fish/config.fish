@@ -22,7 +22,6 @@ if status is-interactive
   alias yt="ddgr -w youtube.com"
   alias duck="ddgr"
   alias tree="eza -tree"
-  alias jo="~/.config/scripts/./old-notes.sh"
 end
 
 # >>> conda initialize >>>

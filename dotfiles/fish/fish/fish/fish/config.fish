@@ -19,14 +19,4 @@ if status is-interactive
   alias nix-install="nvim ~/.config/home-manager/home.nix"
   alias h="history | sort | uniq | fzf | tr -d '\n' | wl-copy"
   alias cal="gcal"
-  alias yt="ddgr -w youtube.com"
-  alias duck="ddgr"
-  alias tree="eza -tree"
-  alias jo="~/.config/scripts/./old-notes.sh"
 end
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval ~/.conda/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
-
