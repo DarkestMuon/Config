@@ -21,7 +21,9 @@ if status is-interactive
   alias cal="gcal"
   alias yt="ddgr -w youtube.com"
   alias duck="ddgr"
-  alias tree="eza -tree"
+  alias tree="eza --tree"
+  alias gcommit="git add . && git commit"
+  alias gpush="git remote | xargs -L1 -I R git push R"
 end
 
 # >>> conda initialize >>>
