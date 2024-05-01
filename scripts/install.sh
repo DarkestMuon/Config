@@ -38,14 +38,12 @@ echo "Please choose the Debian Mirrors, if you don't know what is that please ch
 sudo nala fetch
 
 clear
-echo "HyprLand would be installed using Zakoolit config, so enter y [even for optional] except for:"
-echo "rog laptops, nvidia gpu, zsh, wallpapers by Zaakoolit - where you have to decide on your own depending on your computer setup"
-echo "for zsh, if you are starting out I would recomend NO, if you now what  you are doing please continue"
-echo "Please restart as well and then run ~/.apps/Config/scripts/./postInstall.sh"
-echo "If you have understood, press enter [this screen would be cleared]"
-read
-git clone --depth=1 https://github.com/JaKooLit/Debian-Hyprland.git ~/.apps/debian-hyprland
-cd ~/.apps/debian-hyprland
-chmod +x install.sh
-./install.sh
+cd resources
+# Loop through numbers from 1 to 8
+for i in {1..4}; do
+    # Format the number with leading zero if needed
+    num=$(printf "%02d" $i)
+    # Execute the corresponding script
+    ./"$num"-*.sh
+done
 
