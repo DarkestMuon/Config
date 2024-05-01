@@ -1,4 +1,6 @@
 printf "${NOTE} Installing hyprwayland-scanner...\n"
+sudo nala install -y libpugixml-dev
+cd ~/.apps/HyprSrc
 if git clone https://github.com/hyprwm/hyprwayland-scanner.git; then
     cd hyprwayland-scanner || exit 1
     cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr -S . -B ./build

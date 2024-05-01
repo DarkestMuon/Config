@@ -1,5 +1,6 @@
 printf "${NOTE} Installing Hyprland...\n"
-if git clone https://github.com/hyprwm/Hyprland.git; then
+cd ~/.apps/HyprSrc
+if git clone --recursive https://github.com/hyprwm/Hyprland.git; then
     cd Hyprland || exit 1
       make all && sudo make install
     if sudo make install  2>&1  ; then

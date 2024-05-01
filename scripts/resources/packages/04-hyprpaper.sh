@@ -1,4 +1,5 @@
 printf "${NOTE} Installing hyprpaper...\n"
+cd ~/.apps/HyprSrc
 if git clone https://github.com/hyprwm/hyprpaper.git; then
     cd hyprpaper || exit 1
     cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -S . -B ./build

@@ -1,5 +1,6 @@
-sudo nala install -y 	libpam0g-dev wlogout waybar
+sudo nala install -y 	libpam0g-dev wlogout waybar libmagic-dev
 printf "${NOTE} Installing hyprlock...\n"
+cd ~/.apps/HyprSrc
 if git clone https://github.com/hyprwm/hyprlock.git; then
     cd hyprlock || exit 1
     cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -S . -B ./build

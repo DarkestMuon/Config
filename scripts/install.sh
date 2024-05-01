@@ -38,7 +38,7 @@ echo "Please choose the Debian Mirrors, if you don't know what is that please ch
 sudo nala fetch
 
 clear
-cd resources
+cd ~/.apps/Config/scripts/resources
 # Loop through numbers from 1 to 8
 for i in {1..4}; do
     # Format the number with leading zero if needed

@@ -1,4 +1,5 @@
 printf "${NOTE} Installing nwg-look...\n"
+cd ~/.apps/HyprSrc
 if git clone https://github.com/nwg-piotr/nwg-look.git; then
     cd nwg-look || exit 1
       make build
