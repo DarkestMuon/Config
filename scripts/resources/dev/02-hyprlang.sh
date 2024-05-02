@@ -1,6 +1,6 @@
 printf "${NOTE} Installing hyprlang...\n"
 cd ~/.apps/HyprSrc
-if git clone --branch v0.5.1 https://github.com/hyprwm/hyprlang.git; then
+if git clone https://github.com/hyprwm/hyprlang.git; then
     cd hyprlang || exit 1
     cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr -S . -B ./build
     cmake --build ./build --config Release --target hyprlang -j`nproc 2>/dev/null || getconf NPROCESSORS_CONF`

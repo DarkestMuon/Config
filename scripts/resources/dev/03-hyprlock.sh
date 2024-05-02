@@ -1,7 +1,7 @@
 sudo nala install -y 	libpam0g-dev wlogout waybar libmagic-dev
 printf "${NOTE} Installing hyprlock...\n"
 cd ~/.apps/HyprSrc
-if git clone --branch v0.3.0 https://github.com/hyprwm/hyprlock.git; then
+if git clone https://github.com/hyprwm/hyprlock.git; then
     cd hyprlock || exit 1
     cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -S . -B ./build
     cmake --build ./build --config Release --target hyprlock -j`nproc 2>/dev/null || getconf NPROCESSORS_CONF`
