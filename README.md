@@ -1,7 +1,7 @@
 <h3 align="center">Debian Config</h3>
 
   <p align="center">
-    An amazing config of Debian powered by Jakoolit's Config, Neovim(LunarVim), Kitty, SDDM, Wayland, etc
+    An amazing config of Debian powered by Hyprland, Neovim(LunarVim), Kitty, SDDM, Wayland, etc
     <br />
     <a href="https://github.com/DarkestMuon/config/issues">Report Bug</a>
     ·
@@ -38,16 +38,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This Config is not 100% made by me I have just taken some Projects and using it like: 
-1) Jakoolit's Debian Config
-2) LunarVim
-### Images
+1) LunarVim
+<!-- ### Images
 <p align="center">
     <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/default-waybar.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_16-50-04_10444.png" />   
    <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/waybar-layout.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_16-42-18_6073.png" /> 
    <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_21-48-53_18395.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/DarkestMuon/Config/main/imgs/Screenshot_26-Mar_16-48-37_31910.png" /> 
-</p>
+</p>-->
 
-Some Images are from JaKooLit as Wayland config is made by him
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +76,8 @@ Some Images are from JaKooLit as Wayland config is made by him
 
 
 <!-- ROADMAP -->
-## Roadmap
+
+<!--## Roadmap
 
 - [x] Additional Coding software
 - [ ] Setup Neovim for note-taking
@@ -89,7 +89,7 @@ Some Images are from JaKooLit as Wayland config is made by him
 See the [open issues](https://github.com/DarkestMuon/config/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 
 
 <!-- CONTRIBUTING -->
@@ -133,8 +133,8 @@ Project Link: [https://github.com/DarkestMuon/config](https://github.com/Darkest
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [JaKooLit](https://github.com/JaKooLit/Debian-Hyprland)
 * [LunarVim](https://github.com/LunarVim/LunarVim)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
