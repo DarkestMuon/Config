@@ -33,6 +33,11 @@ sudo apt full-upgrade -y
 clear
 echo "INSTALLING IMPORTANT APPS"
 sudo apt install git nala liblz4-dev neovim fish -y
+sudo apt install -y libasound2 libasound2-plugins alsa-utils
+sudo alsactl init
+sudo apt install -y pipewire-alsa wireplumber pipewire
+sudo apt install -y pipewire-alsa wireplumber pipewire qjackctl pipewire-pulse pipewire-jack      
+systemctl --user --now enable wireplumber.service
 clear
 echo "Please choose the Debian Mirrors, if you don't know what is that please choose 1 then Y"
 sudo nala fetch
