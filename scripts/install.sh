@@ -32,7 +32,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt full-upgrade -y
 clear
 echo "INSTALLING IMPORTANT APPS"
-sudo apt install git nala liblz4-dev neovim fish  cmake -y
+sudo apt install git nala liblz4-dev neovim fish cmake ninja-build -y
 clear
 echo "Please choose the Debian Mirrors, if you don't know what is that please choose 1 then Y"
 sudo nala fetch
