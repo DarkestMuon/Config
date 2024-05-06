@@ -25,7 +25,8 @@
     pkgs.texliveFull
     pkgs.gh
     pkgs.fish
-    pkgs.conda
+    pkgs.fastfetch
+    pkgs.vscodium
   ];
 
   # This value determines the Home Manager release that your
