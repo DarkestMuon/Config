@@ -77,10 +77,12 @@ This Config is not 100% made by me I have just taken some Projects and using it 
 
 <!-- ROADMAP -->
 
-<!--## Roadmap
+## Roadmap
 
 - [x] Additional Coding software
-- [ ] Setup Neovim for note-taking
+- [x] Setup Neovim for note-taking
+- [ ] Fix README
+- [ ] Add Screenshots
 - [ ] Other Linux Distro
   - [ ] Arch Based
   - [ ] Fedora Based
@@ -89,7 +91,6 @@ This Config is not 100% made by me I have just taken some Projects and using it 
 See the [open issues](https://github.com/DarkestMuon/config/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
 
 
 <!-- CONTRIBUTING -->
