@@ -52,7 +52,8 @@ window#waybar.hidden {
 #memory,
 #clock,
 #cpu,
-#window {
+#window,
+#custom-notification {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
@@ -64,7 +65,8 @@ window#waybar.hidden {
 #memory,
 #clock,
 #cpu,
-#window {
+#window,
+#custom-notification {
   color: #cc3436;
 }
 
