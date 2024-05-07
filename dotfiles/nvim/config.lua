@@ -49,11 +49,22 @@ lvim.plugins = {
       require("toggleterm").setup()
     end
   },
+  {"nvim-orgmode/orgmode",
+    event = 'VeryLazy',
+    ft = { 'org' },
+    config = function()
+      -- Setup orgmode
+      require('orgmode').setup({
+        org_agenda_files = '~/orgfiles/**/*',
+        org_default_notes_file = '~/orgfiles/refile.org',
+      })
+  end,
+  }
 }
 -- Define a Lua function to execute the command
 function executePandocAndZathura()
  local filename = vim.fn.expand("%") -- Get the full path of the current file
- local cmd = string.format('pandoc -f markdown-implicit_figures -t pdf %s | zathura -', filename)
+ local cmd = string.format('pandoc -t pdf %s  | zathura -', filename)
  vim.cmd('TermExec cmd="' .. cmd .. '"')
 end
 
