@@ -8,12 +8,12 @@
     ],
     "modules-center": [
         "hyprland/window",
-        "clock"
+        "clock",
+        "custom/notification",
     ],
     "modules-right": [
     "cpu",
     "memory",
-    "custom/notification",
     ],
     "hyprland/window": {
       "max-length": 200,
