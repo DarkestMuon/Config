@@ -30,6 +30,7 @@ command -v fish | sudo tee -a /etc/shells
 chsh -s `which fish` # Setting Fish shell as default
 chmod +x ~/.config/scripts/*
 set --universal zoxide_cmd cd
-
+chmod +x ~/.apps/Config/scripts/librewolf.sh
+~/.apps/Config/scripts/./librewolf.sh
 clear
 echo "Install completed"
