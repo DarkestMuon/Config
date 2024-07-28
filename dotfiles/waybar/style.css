@@ -6,75 +6,72 @@
   font-size: 13px;
 }
 
-window#waybar {
+#waybar {
   background: transparent;
-
 }
 
-window#waybar.hidden {
+
+
+#waybar.empty #window {
+    background: none;
+}
+#waybar.hidden {
   opacity: 0.5;
-}
-
-#workspaces {
-  background-color: transparent;
 }
 
 #workspaces button {
   all: initial;
-  /* Remove GTK theme values (waybar #1351) */
   min-width: 0;
-  /* Fix weird spacing in materia (waybar #450) */
   box-shadow: inset 0 -3px transparent;
-  /* Use box-shadow instead of border so the text isn't offset */
   padding: 6px 18px;
   margin: 6px 3px;
   border-radius: 4px;
-  background-color: #1e1e2e;
-  color: #cdd6f4;
+  color: #99ffdd
 }
 
-#workspaces button.active {
-  color: #1e1e2e;
-  background-color: #cdd6f4;
-}
 
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
-  color: #1e1e2e;
-  background-color: #cdd6f4;
+  color: #ffcc66;
 }
 
-#workspaces button.urgent {
-  background-color: #f38ba8;
-}
-
+/* System Modules */
 #memory,
 #clock,
 #cpu,
 #window,
-#custom-notification {
+#custom-notification,
+#custom-music,
+#network {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: #1e1e2e;
-  color: #181825;
+  color: #99ffdd;
 }
 
-
+/* Modules */
+#workspaces button,
+#custom-notification,
+#custom-music,
+#cpu,
 #memory,
 #clock,
-#cpu,
+#network,
 #window,
-#custom-notification {
-  color: #cc3436;
+#custom-music
+{
+  background-color: #262928;
 }
-
-
+/* Special Effects */
 @keyframes blink {
   to {
     background-color: #f38ba8;
     color: #181825;
   }
+}
+
+#workspaces button.urgent {
+  animation: blink 1s infinite;
 }
 

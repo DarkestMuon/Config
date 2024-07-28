@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "top",
     "spacing": 0,
-    "height": 34,
+    "height": 42,
     "modules-left": [
         "hyprland/workspaces"
     ],
@@ -10,13 +10,15 @@
         "hyprland/window",
         "clock",
         "custom/notification",
+        "custom/music",
     ],
     "modules-right": [
-    "cpu",
-    "memory",
+      "cpu",
+      "memory",
+      "network"
     ],
     "hyprland/window": {
-      "max-length": 200,
+      "max-length": 20,
       "separate-outputs": true
     },
     "wlr/taskbar": {
@@ -51,7 +53,7 @@
     "format-alt-click": "click",
     "format-alt": "󰍛 {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
     "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
-    "on-click-right": "gnome-system-monitor",
+    "on-click-right": "kitty --title btop sh -c 'btop'",
   },
   "clock": {
         "tooltip-format": "{calendar}",
@@ -86,5 +88,31 @@
     "on-click": "sleep 0.1 && swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true,
-  }
+  },
+  "custom/music": {
+    "escape": true,
+    "tooltip": true,
+    "exec": "~/.config/waybar/./cava.sh",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl previous",
+    "on-scroll-down": "playerctl next",
+    "on-click-right": "g4music",
+    "max-length": 35
+  },
+   "network": {
+        "tooltip": true,
+        "format-wifi": " ",
+        "rotate": 0,
+        "format-ethernet": "󰈀 ",
+        "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
+        "format-linked": "󰈀 {ifname} (No IP)",
+        "format-disconnected": "󰖪 ",
+        "tooltip-format-disconnected": "Disconnected",
+        "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
+        "on-click-right": "kitty -e nmtui",
+        "interval": 2,
+    },
+
+
+
 }
