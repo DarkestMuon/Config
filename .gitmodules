@@ -1,0 +1,12 @@
+[submodule "dotfiles/dep/sleek--themes"]
+	path = dotfiles/dep/sleek--themes
+	url = https://github.com/sandesh236/sleek--themes
+[submodule "dotfiles/dep/wallpapers"]
+	path = dotfiles/dep/wallpapers
+	url = https://github.com/DarkestMuon/wallpapers
+[submodule "dotfiles/dep/minimalistic-wallpaper-collection"]
+	path = dotfiles/dep/minimalistic-wallpaper-collection
+	url = https://github.com/DenverCoder1/minimalistic-wallpaper-collection
+[submodule "dotfiles/dep/hyprland-void"]
+	path = dotfiles/dep/hyprland-void
+	url = https://github.com/Makrennel/hyprland-void.git
